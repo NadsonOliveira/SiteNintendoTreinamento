@@ -1,0 +1,362 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin:0 auto;
+}
+ul{
+    padding: 0px;
+}
+.menu-principal{
+    width: 100%;
+    background-color: white;
+    height: 60px;
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logotipo{
+    float: left;
+    padding: 15px;
+    width: 47%;
+}
+.redes-sociais ul li{
+    display: inline-block;
+    float: left;
+    padding: 7px;
+}
+.redes-sociais{
+    width: 19%;
+    float: right;
+}
+.header-2{
+    background-color: #fff;
+    width: 1064px;
+    margin: -13px
+}
+.menu-urls{
+    border-bottom: 3px solid #efefef;
+    height: 60px;
+    
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 15px;
+    color: #BbBbBb;
+    /*autura para o efeito na bordar*/
+    height: 45px ;
+}
+.menu ul li:hover{
+    /*efeito de cor na borda abaixo*/
+    color: red;
+
+}
+.menu ul li a:hover{
+    color: #ff0000;  
+    transition: 2s;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #484848;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.menu{
+    width: 58%;
+    float: left;
+}
+.busca{
+    text-align: center;
+    width:27%;
+    float: right;
+}
+.busca input{
+    /*colocar o icone de buscar dentro da barra de procura*/
+    background-image: url(../img/Busca.png);
+    /*Para ele não repetir*/
+    background-repeat: no-repeat;
+    /*posicionar a direita o icone de procura*/
+    background-position: right ;
+    border: 1px solid #d6d6d6;
+    padding: 12px;
+    height: 25px;
+    width: 190px;
+    margin-top:15px; ;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+    height: 38px
+}
+/* arrow da esqueda do slide*/
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/arrow\ esquerda.png');
+    top:133px;
+    left: 71px;
+}
+/*arrow da direita so slide*/
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/arrow\ direita.png');
+    top:133px;
+    right: 71px;
+    
+}
+/*Tira rolamento lateral*/
+.slick-initialized {
+    overflow: hidden;
+}
+/*Bolinhas do slider*/
+.slick-dots li button{
+    font-size: 0px;
+    border: 2px solid white;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+  
+}
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left:41%;
+    top: 306px;
+
+
+}
+li.slick-active button{
+    background:none;
+}
+.slick-dots li{
+    padding-left: 10px;
+    display:inline-block;
+
+}
+.plus{
+    background-color: white;
+    border: 2px solid #eeeeee;
+    border-left: none;
+    border-right: none;
+    height: 149px;
+    width: 100%;
+    margin-top: -1px
+}
+.plus h1{
+    color: #524d4c;
+    display: inline-block;
+    margin-left: 334px;
+    top: 369px;
+    position: absolute;
+}
+.plus button{
+    position: absolute;
+    left: 523px;
+    top: 391px;
+    background-color: red;
+    border: none;
+    color: whitesmoke;
+    width: 156px;
+    height: 43px;
+    border-radius: 5px;
+    
+}
+.plus button:hover{
+    background-color: #a1a0a0;
+    cursor: var(--cursor, pointer);
+    font-size: var(--font-size, 1em);
+    font-weight: var(--font-weight, 700);
+    line-height: var(--line-height, 1);
+    box-sizing:content-box;
+    transition: 1s;
+}
+.col-200{
+  
+    position: absolute;
+    float: left;
+    top: 108%;
+    display: inline;
+
+}
+.slick-initialized {
+    overflow: hidden;
+}
+.shop{
+    top: 647px;
+    position: absolute;
+    width: 998px;
+    height: 205px;
+    background-color: orange;
+    
+}
+.shop img{
+    position: absolute;
+    width: 440px;
+    top: 58px;
+    right: 534px;
+}
+
+.shop button{
+    position: absolute;
+    top: 79px;
+    right: 30px;
+    color: orange;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 139px;
+    height: 43px;
+}
+.shop button:hover{
+background-color: #dddbdb;
+box-sizing:content-box;
+cursor: pointer;
+transition: 1s;
+}
+
+
+.on{
+    top: 935px;
+    position: absolute;
+    width: 998px;
+    height: 252px;
+    background-color: red;
+}
+.on img{
+    position: absolute;
+    width: 440px;
+    top: -7px;
+    right: 562px;
+}
+
+.sw img{
+    position: absolute;
+    width: 440px;
+    top: 1007px;
+    right: 147px;
+}
+.sw button{
+    position: absolute;
+    top: 1081px;
+    right: 30px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 139px;
+    height: 43px;
+}
+.sw button:hover{
+background-color: #dddbdb;
+box-sizing:content-box;
+cursor: pointer;
+transition: 1s;
+}
+
+.my-nintendo img{
+    position: absolute;
+    width: 1001px;
+    top: 1265px;
+    right: 6px;
+    
+}
+.my-nintendo h1{
+    position: absolute;
+    top: 1202px;
+    right: 389px;
+    color: #524d4c;
+}
+.my-nintendo h2{
+    position: absolute;
+    top: 1516px;
+    right: 391px;
+    left: 41px;
+    color: #524d4c
+}
+.my-nintendo button{
+    position: absolute;
+    top: 1544px;
+    right: 30px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 139px;
+    height: 43px
+}
+.my-nintendo button:hover{
+    background-color: #dddbdb;
+    box-sizing:content-box;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.ingles h1{
+    position: absolute;
+    top: 1634px;
+    right: 387px;
+    left: 37px;
+    color: #524d4c;
+}
+.ingles img{
+    position: absolute;
+    width: 1001px;
+    top: 1744px;
+    right: 6px;
+}
+.ingles h2{
+    position: absolute;
+    top: 1984px;
+    right: 391px;
+    left: 37px;
+    color: #524d4c;
+}
+.ingles button{
+    position: absolute;
+    top: 2006px;
+    right: 30px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 139px;
+    height: 43px;
+}
+.ingles button:hover{
+    background-color: #dddbdb;
+    box-sizing:content-box;
+    cursor: pointer;
+    transition: 1s;
+}
+footer{
+    position: absolute;
+    top: 2114px;
+    background-color: #a0a0a0;
+    width: 100%;
+    height: 240px;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+footer small{
+    position: absolute;
+    top: 213px;
+    right: 404px;
+}
